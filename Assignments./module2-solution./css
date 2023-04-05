@@ -1,1 +1,53 @@
+*{
+box-sizing: border-box;
+font-family: 'Lato', sans-serif;
+background-color:#D9D9D9;
+
+}
+body{
+padding: 3%;
+margin: 0;
+}
+h1{
+font-family: 'Playfair Display', serif;
+margin:auto;
+margin-bottom: 15px;
+width: 90%;
+display: flex;
+justify-content: center;
+color: #202022;
+}
+.row{
+display:flex;
+width:100%;
+gap: 1%;
+flex-wrap: wrap;
+
+}
+.items{
+background-color: #202022;
+color: #D9D9D9;
+height:150px;
+padding: 1.5%;
+margin-top: 1%;
+
+}
+@media (min-width:992px) {
+.col-ld-4{
+float: left;
+width: 32%;
+}  
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.col-md-6 {
+float: left;
+width: 49%;
+}
+.col-md-12{
+float: left;
+width: 99%;
+}
+
+}
 
